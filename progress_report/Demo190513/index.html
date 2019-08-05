@@ -1,14 +1,37 @@
 <!doctype html>
 <html lang="jp">
 <head>
-    <meta charset="utf-8">
 
-    <title>demo190513</title>
+    <meta charset="utf-8">
     <meta name="author" content="k_inoue">
-    
+    <title>
+        Demo190513
+    </title>
+
 </head>
 
 <body>
+
+    <h1>
+        Demo190513 (k_inoue) <br>
+        ＜Residual connectionの有無と音声の品質＞
+    </h1>
+
+    <h2>
+        Residual connectionの有無
+    </h2>
+    
+    <table border="1">
+        <tbody>
+            <tr>    <th>use_residual</th> <th>file_name</th> <th>wav</th> </tr>
+            <tr>    <th>false</th> <td>"wav/LJ050-0029_wors.wav"</td> <td><audio src="file:wav/LJ050-0029_wors.wav" controls></audio></td> </tr>
+            <tr>    <th>true</th> <td>"wav/LJ050-0029_rs.wav"</td> <td><audio src="file:wav/LJ050-0029_rs.wav" controls></audio></td> </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="a.shtml">Back to list of progress report.</a><br>
+
+    <!--
     ＜変更前＞ <br>
     use_residual=false <br>
     "file://fs3/Work/stu16/k_inoue/8_Reserch_Data/Research/wav/wav190513/LJ050-0029_wors.wav" <br>
@@ -21,7 +44,7 @@
     "file://fs3/Work/stu16/k_inoue/8_Reserch_Data/Research/wav/wav190513/LJ050-0029_rs.wav" <br>
     <audio src="file://fs3/Work/stu16/k_inoue/8_Reserch_Data/Research/wav/wav190513/LJ050-0029_rs.wav" controls></audio> <br>
 
-    <!--
+    
     以下のようにして，github上にwavファイルを配置し，読み込みをやってみたがうまくいかない．
     <audio src="https://github.com/potato-inoue/Research/blob/master/wav/wav190513/LJ050-0029_rs.wav" controls></audio> <br>
     -->
