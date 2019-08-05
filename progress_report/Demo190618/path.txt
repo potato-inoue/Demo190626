@@ -1,0 +1,10 @@
+Recorded_LJ050-0029.wav                                 /abelab/DB4/LJSpeech-1.1/wavs
+
+tts1(Griffin-lim)_LJ050-0029.wav                        \\fsq3\abelab_homes\stu16\k_inoue\work\tool\espnet\egs\ljspeech\tts1\exp\sample_70-200\outputs_model.loss.best_th0.5_mlr0.0-10.0_denorm\eval\wav
+tts1(WaveNetVocoder)_LJ050-0029.wav                     \\fsq3\abelab_homes\stu16\k_inoue\work\tool\PytorchWaveNetVocoder\egs\ljspeech\sd-melspc\exp\tr_ljspeech_22k_sd_melspc_nq256_na80_nrc512_nsc256_ks3_dp10_dr3_lr1e-4_wd0.0_bl15000_bs1_ns_up\wav_Tacotron2
+tts1(WaveNetVocoder-NoiseShaping)_LJ050-0029.wav        \\fsq3\abelab_homes\stu16\k_inoue\work\tool\PytorchWaveNetVocoder\egs\ljspeech\sd-melspc\exp\tr_ljspeech_22k_sd_melspc_nq256_na80_nrc512_nsc256_ks3_dp10_dr3_lr1e-4_wd0.0_bl15000_bs1_ns_up\wav_Tacotron2_restored
+
+Analysis(WaveNetVocoder)LJ050-0029.wav                  \\fsq3\abelab_homes\stu16\k_inoue\work\tool\PytorchWaveNetVocoder\egs\ljspeech\sd-melspc\exp\tr_ljspeech_22k_sd_melspc_nq256_na80_nrc512_nsc256_ks3_dp10_dr3_lr1e-4_wd0.0_bl15000_bs1_ns_up\wav
+Analysis(WaveNetVocoder-NoiseShaping)_LJ050-0029.wav    \\fsq3\abelab_homes\stu16\k_inoue\work\tool\PytorchWaveNetVocoder\egs\ljspeech\sd-melspc\exp\tr_ljspeech_22k_sd_melspc_nq256_na80_nrc512_nsc256_ks3_dp10_dr3_lr1e-4_wd0.0_bl15000_bs1_ns_up\wav_restored
+
+tts2(Griffin-lim)_LJ050-0029.wav                        /work/abelab/gen29803/tool/espnet/egs/ljspeech/tts2/exp/train_no_dev_pytorch_taco2_cbhg_r1_enc512-3x5x512-1x512_dec2x1024_pre2x256_post5x5x512_forward_ta128-15x32_cm_bn_cc_msk_pw1.0_do0.5_zo0.1_lr1e-3_ep1e-6_wd0.0_bs32_sd1/outputs_model.loss.best_th0.5_mlr0.0-10.0_denorm/eval/wav
