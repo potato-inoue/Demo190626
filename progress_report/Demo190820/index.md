@@ -10,8 +10,8 @@
 | Start | 2019-07-04 <br> 20:32:36 | 2019-07-10 <br> 14:17:01 | 2019-07-11 <br> 11:32:59  | 2019-07-12 <br> 21:07:31 |  
 | End | 2019-07-07 <br> 09:20:47 | 2019-07-11 <br> 02:03:06 | 2019-07-12 <br> 12:02:47 | 2019-07-13 <br> 08:44:42 |  
 | Label | lab | lab | lab | lab |  
-| lr | <span style="color: blue; ">1e-3</span> | 1e-4 | <span style="color: red; ">**1e-5**</span> | 1e-4c |  
-| atype | location | location | location | **forward** | 
+| lr | <span style="color: blue; ">**1e-3**</span> | 1e-4 | <span style="color: red; ">**1e-5**</span> | 1e-4c |  
+| atype | location | location | location | <span style="color: red; ">forward</span> | 
 | batch-size | 4 | 16 | 16 | 16 |  
 | Max_epoch | 200 | 200 | 200 | 200 |  
 | Patience | 0 | 20 | 40 | 20 |  
@@ -60,10 +60,7 @@
 | 4 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev2/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev3/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> |  
 | 5 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev2/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev3/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> |  
 | ... | ... | ... | ... |... | ... |  
-| 100 | 98 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.98.png" width="320px"> |  100 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev2/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev3/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | 
-<!-- NULL | 135 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.135.png" width="320px"> |  -->
-<!-- 2019-08-03 <br> 00:32:32 | 2019 |   -->
-<!-- 2019-08-04 <br> 17:31:22 | 2019 |   -->
+| 100 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.98.png" width="320px"> <br> 98 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev2/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev3/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | 
 
 ### wav
 
@@ -81,6 +78,17 @@
 
 | epoch | **lab3-rev1** |  
 | --- | --- |  
+| Label | new_lab |  
+| lr | 1e-4 |  
+| atype |  location |  
+| use-guided-attn-loss | <span style="color: red; ">true</span> |  
+| guided-attn-loss-sigma | 0.4 |  
+| reduction-factor | <span style="color: red; ">2</span> |  
+| batch-size | 16 |  
+| Max_epoch | 100 |  
+| Patience | 0 |  
+| Best_epoch | - |  
+| End_epoch | 100 |  
 | 1 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.1.png" width="320px"> |  
 | 2 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.2.png" width="320px"> |  
 | 3 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.3.png" width="320px"> |  
