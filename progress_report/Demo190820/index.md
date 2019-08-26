@@ -11,6 +11,7 @@
 | --- | --- | --- |  
 | NULL | NULL | NULL |  
 
+<img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.1.png" width="320px">  
 ![](blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.1.png)  
 ![](blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.2.png)  
 ![](blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.lab3-rev1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.3.png)  
