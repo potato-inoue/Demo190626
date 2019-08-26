@@ -43,8 +43,6 @@
 | epoch | lab1-revA | lab1-revB | **lab2-rev1** | **lab2-rev2** | **lab2-rev3** | **lab2-rev4** | **lab2-rev5** |  
 | --- | --- | --- | --- | --- | --- | --- | --- |  
 | epoch | **v3_4** | **v3_5** | **v4** | **rev2** | **rev3** | **rev4** | **rev5** |  
-<!-- 2019-08-03 <br> 00:32:32 | 2019 |   -->
-<!-- 2019-08-04 <br> 17:31:22 | 2019 |   -->
 | Label | new_lab | new_lab | new_lab | new_lab | new_lab | new_lab | new_lab |  
 | lr | 1e-4 | 1e-4 |  1e-4 | 1e-4 | 1e-4 | 1e-4 | 1e-4 |  
 | atype | <span style="color: red; ">forward</span> | location | location | location | location | location | <span style="color: red; ">forward</span> |  
@@ -64,6 +62,8 @@
 | ... | ... | ... | ... |... | ... |  
 | 100 | 98 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.98.png" width="320px"> |  100 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev2/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev3/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.tuning.rev5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> | 
 <!-- NULL | 135 <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_5/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.135.png" width="320px"> |  -->
+<!-- 2019-08-03 <br> 00:32:32 | 2019 |   -->
+<!-- 2019-08-04 <br> 17:31:22 | 2019 |   -->
 
 ### wav
 
