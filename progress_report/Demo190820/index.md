@@ -10,7 +10,7 @@
 | Start | 2019-07-04 <br> 20:32:36 | 2019-07-10 <br> 14:17:01 | 2019-07-11 <br> 11:32:59  | 2019-07-12 <br> 21:07:31 | 2019-08-03 <br> 00:32:32 | 2019 |  
 | End | 2019-07-07 <br> 09:20:47 | 2019-07-11 <br> 02:03:06 | 2019-07-12 <br> 12:02:47 | 2019-07-13 <br> 08:44:42 | 2019-08-04 <br> 17:31:22 | 2019 |  
 | Label | lab | lab | lab | lab | **new_lab** | new_lab |  
-| lr | 1e-3 | **1e-4** | **1e-5** | 1e-4 | 1e-4 | 1e-4 |  
+| lr | <span style="color: blue; ">1e-3</span> | <span style="color: red; ">**1e-4**</span> | **1e-5** | <span style="color: red; ">**1e-4**</span> | <span style="color: red; ">**1e-4**</span> | <span style="color: red; ">**1e-4**</span> |  
 | atype | location | location | location | **forward** | forward | **location** |  
 | batch-size | 4 | 16 | 16 | 16 | 8 | 8 |  
 | Max_epoch | 200 | 200 | 200 | 200 | 200 | 200 |  
