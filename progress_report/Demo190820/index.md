@@ -6,23 +6,23 @@
 
 | epoch | **lab1-rev1** |  
 | --- | --- |  
-| 1 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.1.png" width="320px"> |  
-| 2 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.2.png" width="320px"> |  
-| 3 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.3.png" width="320px"> |  
-| 4 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.4.png" width="320px"> |  
-| 5 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.5.png" width="320px"> |  
+| 1 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.1.png" width="320px"> |  
+| 2 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.2.png" width="320px"> |  
+| 3 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.3.png" width="320px"> |  
+| 4 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> |  
+| 5 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> |  
 | ... | ... |  
-| 94 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.94.png" width="320px"> |  
+| 94 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.94.png" width="320px"> |  
 
 ### wav
 
 | wav | **lab1-rev1** |  
 | --- | --- |  
-| 1 | "screeched the rooster, flying across the roof. "         <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000185-000429.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429_att_ws.png" width="320px"> |  
-| 2 | "screamed the robber, running away as fast as he could. " <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000568-000854.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000568-000854_att_ws.png" width="320px"> |  
-| 3 | "there's a horrible witch in the house, he panted. "      <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000025-000301.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000025-000301_att_ws.png" width="320px"> |  
-| 4 | "she spat at me and scratched me. "                       <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000315-000543.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000315-000543_att_ws.png" width="320px"> |  
-| 5 | "there was a man with a knife by the door. "              <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_23_Track_23_000037-000234.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_23_Track_23_000037-000234_att_ws.png" width="320px"> |  
+| 1 | "screeched the rooster, flying across the roof. "         <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000162-000471.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471_att_ws.png" width="320px"> |  
+| 2 | "screamed the robber, running away as fast as he could. " <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000543-000889.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000543-000889_att_ws.png" width="320px"> |  
+| 3 | "there's a horrible witch in the house, he panted. "      <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000000-000309.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000000-000309_att_ws.png" width="320px"> |  
+| 4 | "she spat at me and scratched me. "                       <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000309-000578.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000309-000578_att_ws.png" width="320px"> |  
+| 5 | "there was a man with a knife by the door. "              <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_23_Track_23_000006-000257.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v3_1/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_23_Track_23_000006-000257_att_ws.png" width="320px"> |  
 
 ## lab2 file (Created lab file from text file blizzard17)
 
@@ -30,26 +30,25 @@
 
 | epoch | **lab2-rev1** |  
 | --- | --- |  
-| 1 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.1.png" width="320px"> |  
-| 2 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.2.png" width="320px"> |  
-| 3 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.3.png" width="320px"> |  
-| 4 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.4.png" width="320px"> |  
-| 5 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.5.png" width="320px"> |  
+| 1 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.1.png" width="320px"> |  
+| 2 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.2.png" width="320px"> |  
+| 3 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.3.png" width="320px"> |  
+| 4 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.4.png" width="320px"> |  
+| 5 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.5.png" width="320px"> |  
 | ... | ... |  
-| 100 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429.ep.100.png" width="320px"> |  
-
-## lab3 file (Created lab file from text file blizzard17)
+| 100 | <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/results/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471.ep.100.png" width="320px"> |  
 
 ### wav
 
 | wav | **lab2-rev1** |  
 | --- | --- |  
-| 1 | "screeched the rooster, flying across the roof. "         <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000185-000429.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000185-000429_att_ws.png" width="320px"> |  
-| 2 | "screamed the robber, running away as fast as he could. " <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000568-000854.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000568-000854_att_ws.png" width="320px"> |  
-| 3 | "there's a horrible witch in the house, he panted. "      <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000025-000301.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000025-000301_att_ws.png" width="320px"> |  
-| 4 | "she spat at me and scratched me. "                       <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000315-000543.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000315-000543_att_ws.png" width="320px"> |  
-| 5 | "there was a man with a knife by the door. "              <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_23_Track_23_000037-000234.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_23_Track_23_000037-000234_att_ws.png" width="320px"> |  
+| 1 | "screeched the rooster, flying across the roof. "         <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000162-000471.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000162-000471_att_ws.png" width="320px"> |  
+| 2 | "screamed the robber, running away as fast as he could. " <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_21_Track_21_000543-000889.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_21_Track_21_000543-000889_att_ws.png" width="320px"> |  
+| 3 | "there's a horrible witch in the house, he panted. "      <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000000-000309.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000000-000309_att_ws.png" width="320px"> |  
+| 4 | "she spat at me and scratched me. "                       <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_22_Track_22_000309-000578.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_22_Track_22_000309-000578_att_ws.png" width="320px"> |  
+| 5 | "there was a man with a knife by the door. "              <br> <audio src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode_denorm/dev/wav/TheMusiciansOfBremen_23_Track_23_000006-000257.wav" controls></audio> <br> <img src="blizzard17/train_no_dev_pytorch_train_pytorch_tacotron2.v4/outputs_model.last1.avg.best_decode/dev/att_ws/TheMusiciansOfBremen_23_Track_23_000006-000257_att_ws.png" width="320px"> |  
 
+## lab3 file (Created lab file from text file blizzard17)
 
 ### attention_weight
 
