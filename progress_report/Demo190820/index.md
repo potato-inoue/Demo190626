@@ -80,7 +80,7 @@
 ### attention_weight
 
 | epoch | **lab3-rev1** | **lab3-rev2** | 
-| --- | --- |  
+| --- | --- | --- | 
 | Label | new_lab | new_lab |  
 | lr | 1e-4 | 1e-4 |  
 | atype |  location | location |  
