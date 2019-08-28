@@ -87,7 +87,7 @@
 | atype |  location | location | <span style="color: red; ">forward</span> |  
 | use-guided-attn-loss | <span style="color: red; ">true</span> | <span style="color: red; ">true</span> | false |  
 | guided-attn-loss-sigma | 0.4 | 0.4 | - |  
-| reduction-factor | <span style="color: red; ">2</span> | <span style="color: blue; ">3</span> | <span style="color: red; ">2</span> |  
+| reduction-factor | <span style="color: red; ">2</span> | <span style="color: blue; ">3</span> | <span style="color: blue; ">3</span> |  
 | batch-size | 16 | 16 | 16 |  
 | Max_epoch | 100 | 100 | 100 |  
 | Patience | 0 | 0 | 0 |  
