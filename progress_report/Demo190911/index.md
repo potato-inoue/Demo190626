@@ -27,6 +27,7 @@
 | --- | --- | --- |  
 | <audio src="libritts_asrtts_offline/ground_truth/eval/wav/1089_134691_000043_000000.wav" controls></audio> | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/wav/1089_134691_000043_000000.wav" controls></audio>       | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/wav/1089_134691_000043_000000.wav" controls></audio>        |  
 |                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/att_ws/1089_134691_000043_000000_att_ws.png" width="640px">  | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/att_ws/1089_134691_000043_000000_att_ws.png" width="640px">   |  
+|                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/probs/1089_134691_000043_000000_prob.png" width="640px">     | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/probs/1089_134691_000043_000000_prob.png" width="640px">      |  
 
 ### 1089_134691_000044_000001  
 "He was unheeded, happy and near to the wild heart of life."  
@@ -35,6 +36,7 @@
 | --- | --- | --- |  
 | <audio src="libritts_asrtts_offline/ground_truth/eval/wav/1089_134691_000044_000001.wav" controls></audio> | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/wav/1089_134691_000044_000001.wav" controls></audio>       | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/wav/1089_134691_000044_000001.wav" controls></audio>        |  
 |                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/att_ws/1089_134691_000044_000001_att_ws.png" width="640px">  | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/att_ws/1089_134691_000044_000001_att_ws.png" width="640px">   |  
+|                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/probs/1089_134691_000044_000001_prob.png" width="640px">     | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/probs/1089_134691_000044_000001_prob.png" width="640px">      |  
 
 ### 1089_134691_000045_000003  
 "Her thighs, fuller and soft hued as ivory, were bared almost to the hips, where the white fringes of her drawers were like feathering of soft white down."  
@@ -43,7 +45,7 @@
 | --- | --- | --- |  
 | <audio src="libritts_asrtts_offline/ground_truth/eval/wav/1089_134691_000045_000003.wav" controls></audio> | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/wav/1089_134691_000045_000003.wav" controls></audio>       | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/wav/1089_134691_000045_000003.wav" controls></audio>        |  
 |                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/att_ws/1089_134691_000045_000003_att_ws.png" width="640px">  | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/att_ws/1089_134691_000045_000003_att_ws.png" width="640px">   |  
-
+|                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/probs/1089_134691_000045_000003_prob.png" width="640px">     | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/probs/1089_134691_000045_000003_prob.png" width="640px">      |  
 
 ### 1089_134691_000045_000004  
 "Her slate blue skirts were kilted boldly about her waist and dovetailed behind her."  
@@ -52,7 +54,7 @@
 | --- | --- | --- |  
 | <audio src="libritts_asrtts_offline/ground_truth/eval/wav/1089_134691_000045_000004.wav" controls></audio> | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/wav/1089_134691_000045_000004.wav" controls></audio>       | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/wav/1089_134691_000045_000004.wav" controls></audio>         |  
 |                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/att_ws/1089_134691_000045_000004_att_ws.png" width="640px">  | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/att_ws/1089_134691_000045_000004_att_ws.png" width="640px">    |  
-
+|                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/probs/1089_134691_000045_000004_prob.png" width="640px">     | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/probs/1089_134691_000045_000004_prob.png" width="640px">      |  
 
 ### 1089_134691_000045_000005  
 "Her bosom was as a bird's, soft and slight, slight and soft as the breast of some dark plumaged dove."   
@@ -61,3 +63,5 @@
 | --- | --- | --- |  
 | <audio src="libritts_asrtts_offline/ground_truth/eval/wav/1089_134691_000045_000005.wav" controls></audio> | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/wav/1089_134691_000045_000005.wav" controls></audio>       | <audio src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/wav/1089_134691_000045_000005.wav" controls></audio>        |  
 |                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/att_ws/1089_134691_000045_000005_att_ws.png" width="640px">  | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/att_ws/1089_134691_000045_000005_att_ws.png" width="640px">   |  
+|                                                                                                            | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/eval/probs/1089_134691_000045_000005_prob.png" width="640px">     | <img src="libritts_asrtts_offline/sample_rev2_train_pytorch_tts_train_pytorch_transformer.fine-tuning.rev1/eval/probs/1089_134691_000045_000005_prob.png" width="640px">      |  
+
