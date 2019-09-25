@@ -1,0 +1,639 @@
+# Running on c07
+# Started at Wed Sep 25 10:03:21 EDT 2019
+# tts_train.py --backend pytorch --ngpu 1 --minibatches 0 --outdir exp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results --tensorboard-dir tensorboard/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0 --verbose 1 --seed 1 --resume --model exp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results/model.0th.copy --train-json dump/tts/test_clean_22050_237_train_no_dev/data.json --valid-json dump/tts/test_clean_22050_237_dev/data.json --config conf/tuning/tts_train_pytorch_transformer.fine-tuning.rev0.yaml 
+free gpu: 3
+/home/katsuki/tool/espnet/tools/venv/lib/python3.7/site-packages/torch/nn/_reduction.py:49: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+2019-09-25 10:03:28,359 (tts_train:170) INFO: ngpu: 1
+2019-09-25 10:03:28,359 (tts_train:173) INFO: random seed = 1
+2019-09-25 10:03:28,882 (deterministic_utils:24) INFO: torch type check is disabled
+2019-09-25 10:03:28,923 (tts:273) INFO: #input dims : 35
+2019-09-25 10:03:28,923 (tts:274) INFO: #output dims: 80
+2019-09-25 10:03:28,924 (tts:291) INFO: writing a model config file toexp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results/model.json
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: accum_grad: 2
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: adim: 384
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: aheads: 4
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: backend: pytorch
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: batch_bins: 339600
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: batch_count: auto
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: batch_frames_in: 0
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: batch_frames_inout: 0
+2019-09-25 10:03:28,932 (tts:295) INFO: ARGS: batch_frames_out: 0
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: batch_size: 0
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: batch_sort_key: input
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: bce_pos_weight: 5.0
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: config: conf/tuning/tts_train_pytorch_transformer.fine-tuning.rev0.yaml
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: config2: None
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: config3: None
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: debugmode: 1
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: decoder_concat_after: False
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: decoder_normalize_before: False
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: dlayers: 6
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: dprenet_dropout_rate: 0.5
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: dprenet_layers: 2
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: dprenet_units: 256
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: dunits: 1536
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: early_stop_criterion: validation/main/loss
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: elayers: 6
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: embed_dim: 0
+2019-09-25 10:03:28,933 (tts:295) INFO: ARGS: encoder_concat_after: False
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: encoder_normalize_before: False
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: epochs: 20
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eprenet_conv_chans: 0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eprenet_conv_filts: 0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eprenet_conv_layers: 0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eprenet_dropout_rate: 0.0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eps: 1e-06
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: eunits: 1536
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: grad_clip: 1.0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: guided_attn_loss_lambda: 1.0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: guided_attn_loss_sigma: 0.4
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: initial_decoder_alpha: 1.0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: initial_encoder_alpha: 1.0
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: keep_all_data_on_mem: False
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: loss_type: L1
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: lr: 0.001
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: maxlen_in: 100
+2019-09-25 10:03:28,934 (tts:295) INFO: ARGS: maxlen_out: 200
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: minibatches: 0
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: model: exp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results/model.0th.copy
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: model_module: espnet.nets.pytorch_backend.e2e_tts_transformer:Transformer
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: modules_applied_guided_attn: ['encoder-decoder']
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: ngpu: 1
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: num_heads_applied_guided_attn: 2
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: num_iter_processes: 0
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: num_layers_applied_guided_attn: 2
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: num_save_attention: 5
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: opt: noam
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: outdir: exp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: patience: 0
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: postnet_chans: 256
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: postnet_dropout_rate: 0.5
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: postnet_filts: 5
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: postnet_layers: 5
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: preprocess_conf: None
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: reduction_factor: 1
+2019-09-25 10:03:28,935 (tts:295) INFO: ARGS: report_interval_iters: 2
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: resume: None
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: save_interval_epochs: 1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: seed: 1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: sortagrad: 0
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: spc_dim: None
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: spk_embed_dim: None
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: spk_embed_integration_type: add
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: tensorboard_dir: tensorboard/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: train_json: dump/tts/test_clean_22050_237_train_no_dev/data.json
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_dec_attn_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_dec_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_dec_positional_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_enc_attn_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_enc_dec_attn_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_enc_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_enc_positional_dropout_rate: 0.1
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_init: pytorch
+2019-09-25 10:03:28,936 (tts:295) INFO: ARGS: transformer_lr: 0.0
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: transformer_warmup_steps: 4000
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_batch_norm: True
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_guided_attn_loss: True
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_masking: True
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_scaled_pos_enc: True
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_second_target: False
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: use_speaker_embedding: False
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: valid_json: dump/tts/test_clean_22050_237_dev/data.json
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: verbose: 1
+2019-09-25 10:03:28,937 (tts:295) INFO: ARGS: weight_decay: 0.0
+2019-09-25 10:03:29,336 (tts:301) INFO: Transformer(
+  (encoder): Encoder(
+    (embed): Sequential(
+      (0): Embedding(35, 384, padding_idx=0)
+      (1): ScaledPositionalEncoding(
+        (dropout): Dropout(p=0.1)
+      )
+    )
+    (encoders): MultiSequential(
+      (0): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (1): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (2): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (3): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (4): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (5): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+    )
+  )
+  (decoder): Decoder(
+    (embed): Sequential(
+      (0): Sequential(
+        (0): Prenet(
+          (prenet): ModuleList(
+            (0): Sequential(
+              (0): Linear(in_features=80, out_features=256, bias=True)
+              (1): ReLU()
+            )
+            (1): Sequential(
+              (0): Linear(in_features=256, out_features=256, bias=True)
+              (1): ReLU()
+            )
+          )
+        )
+        (1): Linear(in_features=256, out_features=384, bias=True)
+      )
+      (1): ScaledPositionalEncoding(
+        (dropout): Dropout(p=0.1)
+      )
+    )
+    (decoders): MultiSequential(
+      (0): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (1): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (2): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (3): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (4): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+      (5): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=384, out_features=384, bias=True)
+          (linear_k): Linear(in_features=384, out_features=384, bias=True)
+          (linear_v): Linear(in_features=384, out_features=384, bias=True)
+          (linear_out): Linear(in_features=384, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=384, out_features=1536, bias=True)
+          (w_2): Linear(in_features=1536, out_features=384, bias=True)
+          (dropout): Dropout(p=0.1)
+        )
+        (norm1): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm(torch.Size([384]), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1)
+      )
+    )
+  )
+  (feat_out): Linear(in_features=384, out_features=80, bias=True)
+  (prob_out): Linear(in_features=384, out_features=1, bias=True)
+  (postnet): Postnet(
+    (postnet): ModuleList(
+      (0): Sequential(
+        (0): Conv1d(80, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): Tanh()
+        (3): Dropout(p=0.5)
+      )
+      (1): Sequential(
+        (0): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): Tanh()
+        (3): Dropout(p=0.5)
+      )
+      (2): Sequential(
+        (0): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): Tanh()
+        (3): Dropout(p=0.5)
+      )
+      (3): Sequential(
+        (0): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): Tanh()
+        (3): Dropout(p=0.5)
+      )
+      (4): Sequential(
+        (0): Conv1d(256, 80, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): Dropout(p=0.5)
+      )
+    )
+  )
+  (criterion): TransformerLoss()
+  (attn_criterion): GuidedMultiHeadAttentionLoss()
+)
+2019-09-25 10:03:29,338 (tts:314) INFO: reading model parameters from exp/tts/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.rev0/results/model.0th.copy
+2019-09-25 10:03:36,410 (batchfy:340) INFO: count is auto detected as bin
+2019-09-25 10:03:36,410 (batchfy:359) INFO: # utts: 250
+2019-09-25 10:03:36,410 (batchfy:92) INFO: # utts: 250
+2019-09-25 10:03:36,410 (batchfy:138) INFO: 36 batches containing from 2 to 23 samples (avg 6 samples).
+2019-09-25 10:03:36,410 (batchfy:396) INFO: # minibatches: 36
+2019-09-25 10:03:36,410 (batchfy:340) INFO: count is auto detected as bin
+2019-09-25 10:03:36,411 (batchfy:359) INFO: # utts: 14
+2019-09-25 10:03:36,411 (batchfy:92) INFO: # utts: 14
+2019-09-25 10:03:36,411 (batchfy:138) INFO: 3 batches containing from 3 to 8 samples (avg 4 samples).
+2019-09-25 10:03:36,411 (batchfy:396) INFO: # minibatches: 3
+epoch       iteration   elapsed_time  factor      _rate       main/loss   validation/main/loss  main/l1_loss  validation/main/l1_loss  main/l2_loss  validation/main/l2_loss  main/bce_loss  validation/main/bce_loss  main/encoder_alpha  validation/main/encoder_alpha  main/decoder_alpha  validation/main/decoder_alpha  main/enc_dec_attn_loss  validation/main/enc_dec_attn_loss
+[J0           2           2.0736        0           0           0.966796                          0.773264                               0.55793                                0.193532                                 1.45752                                            0.364641                                           0.00182699                                                 
+[J0           4           2.94984       0           0           0.824988                          0.741916                               0.524489                               0.0830712                                1.45752                                            0.364641                                           0.00016741                                                 
+[J0           6           3.84361       0           0           1.00549                           0.777942                               0.602073                               0.22755                                  1.45752                                            0.364641                                           0.000970494                                                
+[J0           8           4.77423       0           0           0.828                             0.753196                               0.551193                               0.0748038                                1.45752                                            0.364641                                           0.00025777                                                 
+[J0           10          5.72377       0           0           0.792369                          0.733031                               0.52195                                0.059337                                 1.45752                                            0.364641                                           8.96119e-05                                                
+[J0           12          6.54991       0           0           0.809292                          0.742089                               0.532598                               0.0672033                                1.45752                                            0.364641                                           9.75009e-05                                                
+[J0           14          7.38533       0           0           0.762673                          0.728096                               0.506708                               0.0345773                                1.45752                                            0.364641                                           0.000164983                                                
+[J0           16          8.60021       0           0           0.777686                          0.74549                                0.527502                               0.0321966                                1.45752                                            0.364641                                           0.000226766                                                
+[J1           18          148.944       0           0           0.759572    0.834201              0.717455      0.724309                 0.500952      0.505468                 0.0421173      0.109892                  1.45752             1.45752                        0.364641            0.364641                       6.62808e-05             0.000454401                        
+[J1           20          154.335       0           0           0.900862                          0.748083                               0.550907                               0.152778                                 1.45752                                            0.364641                                           0.000424631                                                
+[J1           22          155.193       0           0           0.852538                          0.756937                               0.550922                               0.0956012                                1.45752                                            0.364641                                           0.000277732                                                
+[J1           24          155.986       0           0           0.840799                          0.747002                               0.536442                               0.0937968                                1.45752                                            0.364641                                           0.000307605                                                
+[J1           26          156.743       0           0           0.762207                          0.720016                               0.509251                               0.0421915                                1.45752                                            0.364641                                           7.47709e-05                                                
+[J1           28          157.611       0           0           0.831497                          0.73992                                0.53728                                0.0915772                                1.45752                                            0.364641                                           0.00017235                                                 
+[J1           30          158.505       0           0           0.789502                          0.730737                               0.495059                               0.0587652                                1.45752                                            0.364641                                           0.000162057                                                
+[J1           32          159.407       0           0           0.891961                          0.752787                               0.559678                               0.139175                                 1.45752                                            0.364641                                           0.00051056                                                 
+[J1           34          160.312       0           0           0.831198                          0.73999                                0.532739                               0.0912081                                1.45752                                            0.364641                                           0.000177566                                                
+[J2           36          298.933       0           0           0.809985    0.842739              0.767832      0.727223                 0.560412      0.507244                 0.0421529      0.115516                  1.45752             1.45752                        0.364641            0.364641                       0.00017778              0.000453581                        
+[J2           38          303.214       0           0           1.12104                           0.877971                               0.744156                               0.243069                                 1.45752                                            0.364641                                           0.0148021                                                  
+[J2           40          304.037       0           0           0.874221                          0.746992                               0.55161                                0.127229                                 1.45752                                            0.364641                                           0.000428873                                                
+[J2           42          304.903       0           0           0.763928                          0.725342                               0.513112                               0.0385864                                1.45752                                            0.364641                                           9.66913e-05                                                
+[J2           44          305.757       0           0           0.904226                          0.760724                               0.553906                               0.143501                                 1.45752                                            0.364641                                           0.000558979                                                
+[J2           46          306.546       0           0           0.865922                          0.748053                               0.532324                               0.117869                                 1.45752                                            0.364641                                           0.000283656                                                
+[J2           48          307.363       0           0           0.981136                          0.766947                               0.576019                               0.214189                                 1.45752                                            0.364641                                           0.000898836                                                
+[J2           50          308.377       0           0           0.76458                           0.729776                               0.517792                               0.0348039                                1.45752                                            0.364641                                           0.000140642                                                
+[J2           52          309.303       0           0           0.779779                          0.723994                               0.497424                               0.0557853                                1.45752                                            0.364641                                           0.000108887                                                
+[J3           54          448.24        0           0           0.797619    0.848505              0.725889      0.723457                 0.506787      0.505669                 0.0717298      0.125047                  1.45752             1.45752                        0.364641            0.364641                       0.00013837              0.000460153                        
+[J3           56          452.618       0           0           0.857681                          0.743393                               0.527914                               0.114289                                 1.45752                                            0.364641                                           0.000279936                                                
+[J3           58          453.522       0           0           0.796732                          0.729824                               0.498691                               0.0669077                                1.45752                                            0.364641                                           0.000179948                                                
+[J3           60          454.425       0           0           0.940487                          0.774685                               0.591072                               0.165802                                 1.45752                                            0.364641                                           0.000914303                                                
+[J3           62          455.266       0           0           0.920982                          0.755662                               0.565644                               0.16532                                  1.45752                                            0.364641                                           0.000467166                                                
+[J3           64          456.093       0           0           0.835827                          0.752388                               0.560275                               0.0834389                                1.45752                                            0.364641                                           0.000175757                                                
+[J3           66          457.012       0           0           0.792281                          0.750207                               0.541668                               0.0420737                                1.45752                                            0.364641                                           0.000233074                                                
+[J3           68          457.856       0           0           1.37131                           0.944831                               0.853064                               0.42648                                  1.45752                                            0.364641                                           0.0152569                                                  
+[J3           70          458.807       0           0           0.789173                          0.722093                               0.515332                               0.0670808                                1.45752                                            0.364641                                           9.06689e-05                                                
+[J4           72          596.215       0           0           0.748311    0.827977              0.711188      0.727143                 0.47838       0.509343                 0.0371231      0.100833                  1.45752             1.45752                        0.364641            0.364641                       8.34789e-05             0.00046009                         
+[J4           74          601.643       0           0           0.860859                          0.735341                               0.539582                               0.125518                                 1.45752                                            0.364641                                           0.000404249                                                
+[J4           76          602.609       0           0           1.00172                           0.774081                               0.57219                                0.227641                                 1.45752                                            0.364641                                           0.0018467                                                  
+[J4           78          603.5         0           0           0.782572                          0.734889                               0.514973                               0.0476825                                1.45752                                            0.364641                                           0.000106127                                                
+[J4           80          604.491       0           0           0.801311                          0.745232                               0.5342                                 0.0560791                                1.45752                                            0.364641                                           0.000246708                                                
+[J4           82          605.444       0           0           0.79377                           0.747776                               0.537048                               0.0459942                                1.45752                                            0.364641                                           0.000248464                                                
+[J4           84          606.326       0           0           0.801                             0.734421                               0.519759                               0.0665795                                1.45752                                            0.364641                                           0.000211481                                                
+[J4           86          607.218       0           0           0.939621                          0.758771                               0.563199                               0.18085                                  1.45752                                            0.364641                                           0.000860264                                                
+[J4           88          608.144       0           0           0.851447                          0.755368                               0.554546                               0.0960796                                1.45752                                            0.364641                                           0.000327278                                                
+[J5           90          749.276       0           0           0.915885    0.8295                0.75239       0.728745                 0.548809      0.513538                 0.163495       0.100755                  1.45752             1.45752                        0.364641            0.364641                       0.000542361             0.000456756                        
+[J5           92          770.015       0           0           0.85095                           0.754215                               0.551614                               0.0967344                                1.45752                                            0.364641                                           0.00026921                                                 
+[J5           94          775.59        0           0           1.05947                           0.839192                               0.690476                               0.220274                                 1.45752                                            0.364641                                           0.0121266                                                  
+[J5           96          784.12        0           0           0.821874                          0.750995                               0.548665                               0.0708784                                1.45752                                            0.364641                                           0.000167301                                                
+[J5           98          795.459       0           0           0.821414                          0.741363                               0.520809                               0.0800513                                1.45752                                            0.364641                                           0.000270171                                                
+[J5           100         811.109       0           0           0.833272                          0.740266                               0.541473                               0.093006                                 1.45752                                            0.364641                                           0.000161209                                                
+[J     total [#############.....................................] 27.78%
+this epoch [###########################.......................] 55.56%
+       100 iter, 5 epoch / 20 epochs
+       inf iters/sec. Estimated time to finish: 0:00:00.
+[4A[J5           102         822.372       0           0           1.07088                           0.790475                               0.613218                               0.280407                                 1.45752                                            0.364641                                           0.0021952                                                  
+[J5           104         831.407       0           0           0.779365                          0.720656                               0.49591                                0.058709                                 1.45752                                            0.364641                                           0.000147331                                                
+[J5           106         842.04        0           0           0.809746                          0.741644                               0.529202                               0.0681024                                1.45752                                            0.364641                                           0.000204691                                                
+[J6           108         1002.35       0           0           0.797858    0.83409               0.7403        0.725225                 0.537909      0.506878                 0.0575585      0.108865                  1.45752             1.45752                        0.364641            0.364641                       6.57979e-05             0.000453926                        
+[J6           110         1006.64       0           0           0.870321                          0.748415                               0.547034                               0.121906                                 1.45752                                            0.364641                                           0.000368398                                                
+[J6           112         1007.43       0           0           1.00512                           0.775538                               0.573296                               0.229581                                 1.45752                                            0.364641                                           0.00186822                                                 
+[J6           114         1008.27       0           0           0.77083                           0.738816                               0.527877                               0.0320137                                1.45752                                            0.364641                                           0.000178005                                                
+[J6           116         1008.97       0           0           0.869581                          0.750675                               0.543743                               0.118906                                 1.45752                                            0.364641                                           0.000330005                                                
+[J6           118         1009.71       0           0           0.839279                          0.743887                               0.539076                               0.0953919                                1.45752                                            0.364641                                           0.000156904                                                
+[J6           120         1010.6        0           0           0.855506                          0.748662                               0.532702                               0.106844                                 1.45752                                            0.364641                                           0.000308212                                                
+[J6           122         1011.5        0           0           0.795259                          0.729035                               0.519337                               0.0662239                                1.45752                                            0.364641                                           0.000145638                                                
+[J6           124         1012.32       0           0           0.786571                          0.747646                               0.53844                                0.0389245                                1.45752                                            0.364641                                           0.000238314                                                
+[J7           126         1151.49       0           0           0.980112    0.827881              0.77096       0.723684                 0.59188       0.505648                 0.209152       0.104196                  1.45752             1.45752                        0.364641            0.364641                       0.000843219             0.00044559                         
+[J7           128         1156.88       0           0           0.850804                          0.756152                               0.559915                               0.0946519                                1.45752                                            0.364641                                           0.000201504                                                
+[J7           130         1157.76       0           0           0.768687                          0.726688                               0.512217                               0.0419985                                1.45752                                            0.364641                                           7.97887e-05                                                
+[J7           132         1158.54       0           0           0.846645                          0.752804                               0.555284                               0.0938407                                1.45752                                            0.364641                                           0.000234533                                                
+[J7           134         1159.51       0           0           0.797389                          0.732974                               0.518324                               0.0644148                                1.45752                                            0.364641                                           0.000123927                                                
+[J7           136         1160.5        0           0           0.809088                          0.735284                               0.521434                               0.0738045                                1.45752                                            0.364641                                           0.000195311                                                
+[J7           138         1161.46       0           0           0.784834                          0.741624                               0.524837                               0.0432105                                1.45752                                            0.364641                                           8.07572e-05                                                
+[J7           140         1162.33       0           0           0.854638                          0.748096                               0.545328                               0.106542                                 1.45752                                            0.364641                                           0.000296632                                                
+[J7           142         1163.23       0           0           0.819092                          0.745804                               0.540075                               0.0732878                                1.45752                                            0.364641                                           0.000152937                                                
+[J8           144         1299.81       0           0           0.989156    0.829208              0.769193      0.724207                 0.567923      0.504761                 0.219963       0.105001                  1.45752             1.45752                        0.364641            0.364641                       0.001908                0.000453866                        
+[J8           146         1304.38       0           0           0.811024                          0.7517                                 0.548832                               0.0593238                                1.45752                                            0.364641                                           0.000193974                                                
+[J8           148         1305.57       0           0           0.760741                          0.725236                               0.511055                               0.0355058                                1.45752                                            0.364641                                           0.000145938                                                
+[J8           150         1306.67       0           0           0.791789                          0.744506                               0.521998                               0.0472829                                1.45752                                            0.364641                                           9.57207e-05                                                
+[J8           152         1307.7        0           0           0.767655                          0.721933                               0.501643                               0.0457215                                1.45752                                            0.364641                                           0.000141262                                                
+[J8           154         1308.62       0           0           0.894658                          0.767084                               0.565018                               0.127574                                 1.45752                                            0.364641                                           0.000336191                                                
+[J8           156         1309.85       0           0           0.844599                          0.752533                               0.549295                               0.0920656                                1.45752                                            0.364641                                           0.000178977                                                
+[J8           158         1310.89       0           0           0.777801                          0.725199                               0.518166                               0.0526019                                1.45752                                            0.364641                                           6.70053e-05                                                
+[J8           160         1311.84       0           0           0.800148                          0.738266                               0.518092                               0.0618826                                1.45752                                            0.364641                                           0.000228835                                                
+[J9           162         1450.27       0           0           0.787495    0.836872              0.751104      0.725213                 0.542556      0.507839                 0.0363909      0.111659                  1.45752             1.45752                        0.364641            0.364641                       0.000237745             0.000447361                        
+[J9           164         1454.23       0           0           0.830462                          0.736445                               0.526703                               0.0940165                                1.45752                                            0.364641                                           0.000176048                                                
+[J9           166         1455.05       0           0           0.784092                          0.733196                               0.512585                               0.0508958                                1.45752                                            0.364641                                           8.55612e-05                                                
+[J9           168         1455.91       0           0           0.771679                          0.72894                                0.506492                               0.0427386                                1.45752                                            0.364641                                           0.000145304                                                
+[J9           170         1456.87       0           0           0.812659                          0.747284                               0.533005                               0.0653748                                1.45752                                            0.364641                                           0.000252104                                                
+[J9           172         1457.89       0           0           0.885791                          0.762192                               0.569183                               0.123599                                 1.45752                                            0.364641                                           0.000286256                                                
+[J9           174         1458.89       0           0           0.777064                          0.740441                               0.525847                               0.0366237                                1.45752                                            0.364641                                           0.000181813                                                
+[J9           176         1459.92       0           0           0.902301                          0.761075                               0.564677                               0.141227                                 1.45752                                            0.364641                                           0.000532539                                                
+[J9           178         1460.87       0           0           0.868508                          0.7392                                 0.532064                               0.129308                                 1.45752                                            0.364641                                           0.000404569                                                
+[J10          180         1603.43       0           0           0.823747    0.837202              0.738931      0.723999                 0.544758      0.503728                 0.0848166      0.113203                  1.45752             1.45752                        0.364641            0.364641                       0.000195949             0.000438538                        
+[J10          182         1607.48       0           0           1.32063                           0.9026                                 0.804294                               0.418034                                 1.45752                                            0.364641                                           0.0167527                                                  
+[J10          184         1608.27       0           0           0.878011                          0.762449                               0.575897                               0.115562                                 1.45752                                            0.364641                                           0.00045152                                                 
+[J10          186         1609.01       0           0           0.796262                          0.729538                               0.512767                               0.0667239                                1.45752                                            0.364641                                           0.000124896                                                
+[J10          188         1609.97       0           0           0.769834                          0.7232                                 0.502268                               0.0466336                                1.45752                                            0.364641                                           0.000117365                                                
+[J10          190         1610.7        0           0           0.76665                           0.720163                               0.504169                               0.0464879                                1.45752                                            0.364641                                           5.82599e-05                                                
+[J10          192         1611.76       0           0           1.00256                           0.779529                               0.592699                               0.223031                                 1.45752                                            0.364641                                           0.00182222                                                 
+[J10          194         1613.02       0           0           0.760525                          0.730349                               0.51956                                0.0301758                                1.45752                                            0.364641                                           5.90665e-05                                                
+[J10          196         1614.01       0           0           0.807782                          0.742647                               0.527859                               0.065135                                 1.45752                                            0.364641                                           0.000271293                                                
+[J11          198         1753.16       0           0           0.802819    0.839143              0.733267      0.727578                 0.516112      0.509839                 0.0695518      0.111565                  1.45752             1.45752                        0.364641            0.364641                       0.00014983              0.000464941                        
+[J11          200         1757.25       0           0           0.891757                          0.764229                               0.565319                               0.127529                                 1.45752                                            0.364641                                           0.000320688                                                
+[J     total [###########################.......................] 55.56%
+this epoch [#####.............................................] 11.11%
+       200 iter, 11 epoch / 20 epochs
+   0.10687 iters/sec. Estimated time to finish: 0:24:57.112815.
+[4A[J11          202         1758.22       0           0           0.862778                          0.759917                               0.578242                               0.102861                                 1.45752                                            0.364641                                           0.000220055                                                
+[J11          204         1759.06       0           0           0.791097                          0.725712                               0.508382                               0.0653845                                1.45752                                            0.364641                                           0.000143847                                                
+[J11          206         1759.96       0           0           0.888358                          0.743687                               0.542135                               0.144671                                 1.45752                                            0.364641                                           0.000518272                                                
+[J11          208         1760.75       0           0           0.95613                           0.766231                               0.580785                               0.189899                                 1.45752                                            0.364641                                           0.000875885                                                
+[J11          210         1761.6        0           0           0.796002                          0.737182                               0.522355                               0.0588204                                1.45752                                            0.364641                                           0.000190598                                                
+[J11          212         1762.34       0           0           0.977447                          0.76921                                0.569861                               0.208238                                 1.45752                                            0.364641                                           0.00184782                                                 
+[J11          214         1763.41       0           0           0.766761                          0.737152                               0.502821                               0.0296085                                1.45752                                            0.364641                                           7.97563e-05                                                
+[J12          216         1898.32       0           0           0.852981    0.843109              0.749376      0.726223                 0.534262      0.507495                 0.103605       0.116886                  1.45752             1.45752                        0.364641            0.364641                       0.000306582             0.000455702                        
+[J12          218         1902.54       0           0           0.769202                          0.720502                               0.499657                               0.0486996                                1.45752                                            0.364641                                           0.000148466                                                
+[J12          220         1903.34       0           0           0.76623                           0.73142                                0.523482                               0.0348098                                1.45752                                            0.364641                                           8.71563e-05                                                
+[J12          222         1904.12       0           0           0.978667                          0.762423                               0.552879                               0.216244                                 1.45752                                            0.364641                                           0.00179462                                                 
+[J12          224         1904.91       0           0           0.76711                           0.733474                               0.518231                               0.0336364                                1.45752                                            0.364641                                           0.000119661                                                
+[J12          226         1905.68       0           0           0.840387                          0.749575                               0.540361                               0.0908111                                1.45752                                            0.364641                                           0.000258444                                                
+[J12          228         1906.52       0           0           0.959069                          0.782721                               0.604264                               0.176349                                 1.45752                                            0.364641                                           0.000945139                                                
+[J12          230         1907.45       0           0           0.87728                           0.752411                               0.542016                               0.124868                                 1.45752                                            0.364641                                           0.000432472                                                
+[J12          232         1908.17       0           0           0.818479                          0.731181                               0.516273                               0.0872976                                1.45752                                            0.364641                                           0.000197284                                                
+[J13          234         2043.39       0           0           0.767397    0.82633               0.727629      0.726927                 0.506144      0.508102                 0.039768       0.0994031                 1.45752             1.45752                        0.364641            0.364641                       6.57311e-05             0.000447844                        
+[J13          236         2048.6        0           0           0.943682                          0.766973                               0.581402                               0.176709                                 1.45752                                            0.364641                                           0.000865707                                                
+[J13          238         2049.37       0           0           0.876142                          0.752772                               0.558656                               0.12337                                  1.45752                                            0.364641                                           0.000381098                                                
+[J13          240         2050.13       0           0           0.885242                          0.749576                               0.54639                                0.135666                                 1.45752                                            0.364641                                           0.000568251                                                
+[J13          242         2050.97       0           0           1.03097                           0.769627                               0.567344                               0.261344                                 1.45752                                            0.364641                                           0.00191954                                                 
+[J13          244         2051.71       0           0           0.804929                          0.735097                               0.512045                               0.0698317                                1.45752                                            0.364641                                           0.000188681                                                
+[J13          246         2052.51       0           0           0.766008                          0.727561                               0.505075                               0.0384466                                1.45752                                            0.364641                                           7.35717e-05                                                
+[J13          248         2053.42       0           0           0.76774                           0.729055                               0.519982                               0.0386854                                1.45752                                            0.364641                                           0.000169746                                                
+[J13          250         2054.34       0           0           0.782849                          0.754257                               0.549134                               0.0285928                                1.45752                                            0.364641                                           0.000260991                                                
+[J14          252         2191.69       0           0           1.15688     0.838087              0.86315       0.729599                 0.716682      0.512364                 0.293732       0.108487                  1.45752             1.45752                        0.364641            0.364641                       0.0126281               0.00045174                         
+[J14          254         2195.86       0           0           0.809573                          0.744685                               0.524288                               0.0648883                                1.45752                                            0.364641                                           0.000120632                                                
+[J14          256         2196.6        0           0           0.770103                          0.731939                               0.514061                               0.0381644                                1.45752                                            0.364641                                           8.2641e-05                                                 
+[J14          258         2197.3        0           0           0.892617                          0.755722                               0.558424                               0.136895                                 1.45752                                            0.364641                                           0.000435923                                                
+[J14          260         2198.09       0           0           0.841603                          0.759495                               0.555591                               0.082108                                 1.45752                                            0.364641                                           0.000210826                                                
+[J14          262         2198.91       0           0           0.819677                          0.741645                               0.537178                               0.0780321                                1.45752                                            0.364641                                           0.0001626                                                  
+[J14          264         2199.79       0           0           0.770597                          0.725383                               0.504892                               0.0452146                                1.45752                                            0.364641                                           8.5501e-05                                                 
+[J14          266         2200.54       0           0           0.771656                          0.729261                               0.524102                               0.0423947                                1.45752                                            0.364641                                           6.44016e-05                                                
+[J14          268         2201.27       0           0           0.828006                          0.74032                                0.52689                                0.0876854                                1.45752                                            0.364641                                           0.00026184                                                 
+[J15          270         2335.59       0           0           0.896846    0.837611              0.761884      0.725281                 0.570885      0.506384                 0.134961       0.11233                   1.45752             1.45752                        0.364641            0.364641                       0.000536338             0.000469968                        
+[J15          272         2339.76       0           0           0.960727                          0.758435                               0.564803                               0.202292                                 1.45752                                            0.364641                                           0.000958745                                                
+[J15          274         2340.66       0           0           0.763514                          0.72389                                0.501647                               0.0396243                                1.45752                                            0.364641                                           7.13902e-05                                                
+[J15          276         2341.46       0           0           0.826123                          0.736474                               0.515028                               0.0896487                                1.45752                                            0.364641                                           0.000244003                                                
+[J15          278         2342.39       0           0           0.795369                          0.750415                               0.550333                               0.0449535                                1.45752                                            0.364641                                           0.000226074                                                
+[J15          280         2343.29       0           0           0.762961                          0.726272                               0.497616                               0.0366884                                1.45752                                            0.364641                                           8.58576e-05                                                
+[J15          282         2344.14       0           0           0.856415                          0.754698                               0.557102                               0.101717                                 1.45752                                            0.364641                                           0.000268129                                                
+[J15          284         2345.03       0           0           0.779214                          0.740682                               0.530434                               0.0385324                                1.45752                                            0.364641                                           0.000159481                                                
+[J15          286         2345.83       0           0           0.89835                           0.756175                               0.553155                               0.142175                                 1.45752                                            0.364641                                           0.00059234                                                 
+[J16          288         2481.98       0           0           0.763585    0.818078              0.725679      0.725488                 0.502021      0.507246                 0.0379065      0.0925894                 1.45752             1.45752                        0.364641            0.364641                       9.5637e-05              0.000443664                        
+[J16          290         2487.38       0           0           0.79643                           0.752694                               0.54877                                0.0437365                                1.45752                                            0.364641                                           0.000189906                                                
+[J16          292         2488.26       0           0           0.779674                          0.733978                               0.512818                               0.0456956                                1.45752                                            0.364641                                           0.000149917                                                
+[J16          294         2489.12       0           0           0.754674                          0.723922                               0.504014                               0.0307526                                1.45752                                            0.364641                                           6.52138e-05                                                
+[J16          296         2489.93       0           0           0.780343                          0.732088                               0.510252                               0.0482554                                1.45752                                            0.364641                                           0.000114265                                                
+[J16          298         2490.78       0           0           0.782111                          0.749752                               0.536219                               0.0323598                                1.45752                                            0.364641                                           0.000217817                                                
+[J16          300         2491.47       0           0           0.909115                          0.744851                               0.539473                               0.164264                                 1.45752                                            0.364641                                           0.000558043                                                
+[J     total [#########################################.........] 83.33%
+this epoch [#################################.................] 66.67%
+       300 iter, 16 epoch / 20 epochs
+   0.11977 iters/sec. Estimated time to finish: 0:08:20.974797.
+[4A[J16          302         2492.3        0           0           0.81981                           0.737794                               0.540907                               0.0820165                                1.45752                                            0.364641                                           0.000173886                                                
+[J16          304         2493.02       0           0           0.825737                          0.728686                               0.513309                               0.0970507                                1.45752                                            0.364641                                           0.000166755                                                
+[J17          306         2626.89       0           0           1.19042     0.828762              0.86625       0.727098                 0.720408      0.506563                 0.324172       0.101664                  1.45752             1.45752                        0.364641            0.364641                       0.0133426               0.000459519                        
+[J17          308         2631.08       0           0           0.778664                          0.726088                               0.510597                               0.0525755                                1.45752                                            0.364641                                           0.00011586                                                 
+[J17          310         2631.82       0           0           0.919673                          0.758791                               0.574234                               0.160882                                 1.45752                                            0.364641                                           0.000839996                                                
+[J17          312         2632.67       0           0           0.804924                          0.763991                               0.550753                               0.0409331                                1.45752                                            0.364641                                           0.000244165                                                
+[J17          314         2633.46       0           0           0.797738                          0.729387                               0.49755                                0.0683507                                1.45752                                            0.364641                                           0.000169799                                                
+[J17          316         2634.33       0           0           0.777908                          0.739234                               0.530004                               0.0386735                                1.45752                                            0.364641                                           0.000226191                                                
+[J17          318         2635.12       0           0           0.838302                          0.758348                               0.565037                               0.0799537                                1.45752                                            0.364641                                           0.000188466                                                
+[J17          320         2635.8        0           0           1.19967                           0.91104                                0.831473                               0.288631                                 1.45752                                            0.364641                                           0.0126038                                                  
+[J17          322         2636.63       0           0           0.791241                          0.737821                               0.535318                               0.0534199                                1.45752                                            0.364641                                           9.08446e-05                                                
+[J18          324         2770.49       0           0           1.0353      0.855033              0.785842      0.728248                 0.591597      0.508883                 0.249455       0.126785                  1.45752             1.45752                        0.364641            0.364641                       0.0018585               0.000468092                        
+[J18          326         2774.67       0           0           1.01596                           0.775233                               0.578196                               0.240731                                 1.45752                                            0.364641                                           0.00175754                                                 
+[J18          328         2775.47       0           0           1.00588                           0.772709                               0.584445                               0.233171                                 1.45752                                            0.364641                                           0.000972282                                                
+[J18          330         2776.26       0           0           1.07292                           0.835473                               0.673364                               0.237444                                 1.45752                                            0.364641                                           0.0135307                                                  
+[J18          332         2777.25       0           0           0.773343                          0.735004                               0.515369                               0.0383392                                1.45752                                            0.364641                                           0.000137992                                                
+[J18          334         2778.14       0           0           0.753345                          0.713084                               0.491049                               0.0402615                                1.45752                                            0.364641                                           6.00602e-05                                                
+[J18          336         2778.97       0           0           0.773393                          0.733778                               0.505123                               0.0396145                                1.45752                                            0.364641                                           9.17115e-05                                                
+[J18          338         2779.81       0           0           0.822576                          0.741615                               0.526379                               0.0809611                                1.45752                                            0.364641                                           0.000256538                                                
+[J18          340         2780.71       0           0           0.822202                          0.760713                               0.563099                               0.0614891                                1.45752                                            0.364641                                           0.000248767                                                
+[J19          342         2916.68       0           0           0.825983    0.835877              0.736264      0.726265                 0.526308      0.506317                 0.0897189      0.109611                  1.45752             1.45752                        0.364641            0.364641                       0.000171661             0.000460921                        
+[J19          344         2920.84       0           0           0.75782                           0.722165                               0.500665                               0.0356555                                1.45752                                            0.364641                                           8.69554e-05                                                
+[J19          346         2921.66       0           0           0.764945                          0.728042                               0.519476                               0.036903                                 1.45752                                            0.364641                                           6.99679e-05                                                
+[J19          348         2922.55       0           0           0.85786                           0.752042                               0.543918                               0.105818                                 1.45752                                            0.364641                                           0.000296208                                                
+[J19          350         2923.44       0           0           0.759607                          0.723029                               0.512756                               0.0365777                                1.45752                                            0.364641                                           0.000128582                                                
+[J19          352         2924.2        0           0           0.86129                           0.757149                               0.540528                               0.104141                                 1.45752                                            0.364641                                           0.000255539                                                
+[J19          354         2924.98       0           0           1.02485                           0.779136                               0.591787                               0.245714                                 1.45752                                            0.364641                                           0.00184406                                                 
+[J19          356         2925.76       0           0           0.862635                          0.748523                               0.555022                               0.114111                                 1.45752                                            0.364641                                           0.000242382                                                
+[J19          358         2926.48       0           0           0.9927                            0.783141                               0.602931                               0.20956                                  1.45752                                            0.364641                                           0.000983796                                                
+[J20          360         3060.3        0           0           0.922824    0.835331              0.759219      0.727046                 0.556072      0.510898                 0.163605       0.108285                  1.45752             1.45752                        0.364641            0.364641                       0.000642689             0.000462416                        
+[J/home/katsuki/tool/espnet/espnet/nets/pytorch_backend/transformer/plot.py:28: UserWarning: tight_layout : falling back to Agg renderer
+  fig.tight_layout()
+/home/katsuki/tool/espnet/espnet/nets/pytorch_backend/e2e_tts_transformer.py:144: UserWarning: tight_layout : falling back to Agg renderer
+  fig.tight_layout()
+# Accounting: time=3081 threads=1
+# Finished at Wed Sep 25 10:54:42 EDT 2019 with status 0
