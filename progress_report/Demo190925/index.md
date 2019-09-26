@@ -1,4 +1,8 @@
-# demo190925
+# Speaker adaptation for single speaker tts model
+
+model: ljspeech.transformer.v1
+text: ASR output
+speech: speech of target speaker
 
 ## 237(F)
 target for pre-train  

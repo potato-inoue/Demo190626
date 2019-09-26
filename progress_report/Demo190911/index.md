@@ -1,4 +1,4 @@
-# demo190911
+# [Error] Speaker adaptation sample of Multi speaker tts model [Made by bug codes]
 
 ## speaker 1089  
 

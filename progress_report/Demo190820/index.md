@@ -1,4 +1,4 @@
-# demo190820
+# Samples of Blizzard17 implementation
 
 ## lab1 file
 (Original lab file of blizzard17)  

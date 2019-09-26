@@ -1,4 +1,6 @@
-# demo190918
+# Open speaker speech samples of Multi speaker tts model
+
+model: libritts.transformer.v1
 
 ## dev_clean
 

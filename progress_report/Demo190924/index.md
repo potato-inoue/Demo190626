@@ -1,4 +1,4 @@
-# demo190924
+# Repetition sample observed by Ins. Error
 
 ![CER_eval](img/CER_eval.png)
 ![WER_eval](img/WER_eval_with_mark.png)
