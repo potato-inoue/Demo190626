@@ -95,14 +95,14 @@ target for pre-train
 | loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/4446_2275_000044_000006.wav" controls></audio> |  
 | avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/4446_2275_000044_000006.wav" controls></audio> |  
 
-1089_134691_000049_000003.wav  
+4446_2275_000045_000000.wav  
 
 | type | wav |  
 | --- | --- |  
-| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446.ground_truth/eval/wav/1089_134691_000049_000003.wav" controls></audio> |  
-| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_0th/wav/1089_134691_000049_000003.wav" controls></audio> |  
-| loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
-| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
+| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446.ground_truth/eval/wav/4446_2275_000045_000000.wav" controls></audio> |  
+| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_0th/wav/4446_2275_000045_000000.wav" controls></audio> |  
+| loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/4446_2275_000045_000000.wav" controls></audio> |  
+| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/4446_2275_000045_000000.wav" controls></audio> |  
 
 4446_2275_000045_000001.wav  
 
@@ -113,14 +113,14 @@ target for pre-train
 | loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/4446_2275_000045_000001.wav" controls></audio> |  
 | avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/4446_2275_000045_000001.wav" controls></audio> |  
 
-1089_134691_000052_000000.wav  
+4446_2275_000046_000000.wav  
 
 | type | wav |  
 | --- | --- |  
-| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446.ground_truth/eval/wav/1089_134691_000052_000000.wav" controls></audio> |  
-| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_0th/wav/1089_134691_000052_000000.wav" controls></audio> |  
-| loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/1089_134691_000052_000000.wav" controls></audio> |  
-| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/1089_134691_000052_000000.wav" controls></audio> |  
+| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446.ground_truth/eval/wav/4446_2275_000046_000000.wav" controls></audio> |  
+| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_0th/wav/4446_2275_000046_000000.wav" controls></audio> |  
+| loss.best (18 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_loss.best/wav/4446_2275_000046_000000.wav" controls></audio> |  
+| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_4446_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk4446_lr1.rev1/eval_avg.best/wav/4446_2275_000046_000000.wav" controls></audio> |  
 
 ## 1089(M)
 
@@ -154,14 +154,14 @@ target for pre-train
 | loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/1089_134691_000049_000002.wav" controls></audio> |  
 | avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/1089_134691_000049_000002.wav" controls></audio> |  
 
-4446_2275_000045_000000.wav  
+1089_134691_000049_000003.wav  
 
 | type | wav |  
 | --- | --- |  
-| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089.ground_truth/eval/wav/4446_2275_000045_000000.wav" controls></audio> |  
-| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_0th/wav/4446_2275_000045_000000.wav" controls></audio> |  
-| loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/4446_2275_000045_000000.wav" controls></audio> |  
-| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/4446_2275_000045_000000.wav" controls></audio> |  
+| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089.ground_truth/eval/wav/1089_134691_000049_000003.wav" controls></audio> |  
+| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_0th/wav/1089_134691_000049_000003.wav" controls></audio> |  
+| loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
+| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
 
 1089_134691_000050_000002.wav  
 
@@ -172,11 +172,11 @@ target for pre-train
 | loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/1089_134691_000050_000002.wav" controls></audio> |  
 | avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/1089_134691_000050_000002.wav" controls></audio> |  
 
-4446_2275_000046_000000.wav  
+1089_134691_000052_000000.wav  
 
 | type | wav |  
 | --- | --- |  
-| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089.ground_truth/eval/wav/4446_2275_000046_000000.wav" controls></audio> |  
-| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_0th/wav/4446_2275_000046_000000.wav" controls></audio> |  
-| loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/4446_2275_000046_000000.wav" controls></audio> |  
-| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/4446_2275_000046_000000.wav" controls></audio> |  
+| target for fine-tuning    | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089.ground_truth/eval/wav/1089_134691_000052_000000.wav" controls></audio> |  
+| 0th decode                | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_0th/wav/1089_134691_000052_000000.wav" controls></audio> |  
+| loss.best (46 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_loss.best/wav/1089_134691_000052_000000.wav" controls></audio> |  
+| avg.best  (60 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/eval_avg.best/wav/1089_134691_000052_000000.wav" controls></audio> |  
