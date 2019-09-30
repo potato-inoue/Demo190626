@@ -126,28 +126,28 @@ target for pre-train
 
 ### lr: 1e0
 
-loss
+loss <br>
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/all_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/l1_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/l2_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/bce_loss.png" width="320px">
-
-encoder-decoder
+<br>
+encoder-decoder <br>
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/encoder_alpha.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/decoder_alpha.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1.rev1/results/enc_dec_attn_loss.png" width="320px">
 
 ### lr: 1e-1
 
-loss
+loss <br>
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/all_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/l1_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/l2_loss.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/bce_loss.png" width="320px">
-
-encoder-decoder
+<br>
+encoder-decoder <br>
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/encoder_alpha.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/decoder_alpha.png" width="320px">
 <img src="ljspeech_asrtts_offline/test_clean_22050_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e-1.rev1/results/enc_dec_attn_loss.png" width="320px">
