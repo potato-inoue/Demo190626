@@ -24,8 +24,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000000.wav  
 
-    Ground truth: Her eyes had called him and his soul had leaped at the call.  
-    Recog output: HER EYES HAD CALLED HIM AND HIS SOUL HAD LEAPED AT THE CALL.  
+    Ground truth:  
+    Recog output:  
 
 | type | wav |  
 | --- | --- |  
@@ -36,8 +36,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000001.wav  
 
-    Ground truth: To live, to err, to fall, to triumph, to recreate life out of life!  
-    Recog output: TO LIVE TO AIR TO FALL TO TRIUMPH TO RECREATE LIFE OUT OF LIFE.  
+    Ground truth:  
+    Recog output:  
 
 | type | wav |  
 | --- | --- |  
@@ -48,8 +48,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000002.wav  
 
-    Ground truth: A wild angel had appeared to him, the angel of mortal youth and beauty, an envoy from the fair courts of life, to throw open before him in an instant of ecstasy the gates of all the ways of error and glory.  
-    Recog output: A WILD ANGEL HAD APPEARED TO HIM THE ANGEL OF MORTAL YOUTH AND BEAUTY AND ENVOY FROM THE FAIR COURTS OF LIFE TO THROW OPEN BEFORE HIM IN AN INSTANT OF ECSTASY THE GATES OF ALL THE WAYS OF ERROR AND GLORY.  
+    Ground truth:  
+    Recog output:  
 
 | type | wav |  
 | --- | --- |  
@@ -60,8 +60,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000003.wav  
 
-    Ground truth: What hour was it?  
-    Recog output: WHAT HOUR WAS IT.  
+    Ground truth:  
+    Recog output:  
 
 | type | wav |  
 | --- | --- |  
@@ -72,8 +72,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000004.wav  
 
-    Ground truth: He felt above him the vast indifferent dome and the calm processes of the heavenly bodies; and the earth beneath him, the earth that had borne him, had taken him to her breast.  
-    Recog output: HE FELT ABOVE HIM THE VAST INDIFFERENT DOME AND THE CALM PROCESSES OF THE HEAVENLY BODIES AND THE EARTH BENEATH HIM THE EARTH THAT HAD BORNE HIM HAD TAKEN HIM TO HER BREAST.  
+    Ground truth:  
+    Recog output:  
 
 | type | wav |  
 | --- | --- |  
