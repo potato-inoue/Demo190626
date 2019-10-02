@@ -106,7 +106,7 @@ Recog output:
 | avg.best  (lr:1e-1, 100 epoch)    | <audio src="ljspeech_asrtts_offline/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk237_lr1e-1.rev2/eval_avg.best/wav/237_134500_000036_000003.wav" controls></audio> |  
 
 <!-- | loss.best (lr:1e0, 47 epoch)      | <audio src="ljspeech_asrtts_offline/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk237_lr1.rev1/eval_loss.best/wav/237_134500_000036_000003.wav" controls></audio> |   -->
-<!-- | avg.best  (lr:1e-1, 50 epoch)     | <audio src="ljspeech_asrtts_offline/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk237_lr1e-1.rev1/eval_avg.best/wav/237_134500_000036_000003.wav" controls></audio> |   --> --> -->
+<!-- | avg.best  (lr:1e-1, 50 epoch)     | <audio src="ljspeech_asrtts_offline/test_clean_22050_237_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk237_lr1e-1.rev1/eval_avg.best/wav/237_134500_000036_000003.wav" controls></audio> |   -->
 
 
 237_134500_000036_000004.wav  
