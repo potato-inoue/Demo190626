@@ -6,11 +6,13 @@ speech: speech of target speaker
 
 ## 1089(M)
 
-### lr: 1e0
-
-loss <br>
+### bce_loss
 <img src="../libritts_asrtts_offline/results/bce_loss.png">
+
+### loss
 <img src="../libritts_asrtts_offline/results/loss.png">
+
+### l1_loss
 <img src="../libritts_asrtts_offline/results/l1_loss.png">
 
 1089_134691_000049_000001.wav  
