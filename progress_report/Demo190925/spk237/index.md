@@ -24,8 +24,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000000.wav  
 
-    Ground truth:  
-    Recog output:  
+    Ground truth: Marie clasped her hands and started up from her seat. 
+    Recog output: MARIE CLASPED HER HANDS AND STARTED UP FROM HER SEAT. 
 
 | type | wav |  
 | --- | --- |  
@@ -36,8 +36,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000001.wav  
 
-    Ground truth:  
-    Recog output:  
+    Ground truth: She had grown very pale and her eyes were shining with excitement and distress. "But, Emil, if I understand, then all our good times are over, we can never do nice things together any more. 
+    Recog output: SHE HAD GROWN VERY PALE AND HER EYES WERE SHINING WITH EXCITEMENT AND DISTRESS BUT EMIL IF I UNDERSTAND AND ALL OUR GOOD TIMES ARE OVER WE CAN NEVER DO NICE THINGS TOGETHER ANY MORE. 
 
 | type | wav |  
 | --- | --- |  
@@ -48,8 +48,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000002.wav  
 
-    Ground truth:  
-    Recog output:  
+    Ground truth: We shall have to behave like mr Linstrum. 
+    Recog output: WE SHALL HAVE TO BEHAVE LIKE MISTER LINDSTROM. 
 
 | type | wav |  
 | --- | --- |  
@@ -60,8 +60,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000003.wav  
 
-    Ground truth:  
-    Recog output:  
+    Ground truth: And, anyhow, there's nothing to understand!" She struck the ground with her little foot fiercely. 
+    Recog output: AND ANYHOW THERE'S NOTHING TO UNDERSTAND SHE STRUCK THE GROUND WITH HER LITTLE FOOT FIERCELY. 
 
 | type | wav |  
 | --- | --- |  
@@ -72,8 +72,8 @@ speech: speech of target speaker
 
 ### 237_134500_000036_000004.wav  
 
-    Ground truth:  
-    Recog output:  
+    Ground truth: "That won't last. 
+    Recog output: THAT WON'T LAST. 
 
 | type | wav |  
 | --- | --- |  
