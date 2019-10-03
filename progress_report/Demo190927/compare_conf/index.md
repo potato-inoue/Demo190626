@@ -25,7 +25,7 @@ speech: speech of target speaker
 | avg.best   (lr:1e0, 20  epoch)    | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev2/eval_avg.best/wav/1089_134691_000049_000001.wav" controls></audio> |  
 | avg.best   (lr:1e0, 50  epoch)    | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev4/eval_avg.best/wav/1089_134691_000049_000001.wav" controls></audio> |  
 
-<img src="../libritts_asrtts_offline/results/1089_134691_000049_000001.png">
+<img src="../libritts_asrtts_offline/results/1089_134691_000049_000001.png" width="320px">
 
 1089_134691_000049_000002.wav  
 
@@ -37,7 +37,7 @@ speech: speech of target speaker
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev2/eval_avg.best/wav/1089_134691_000049_000002.wav" controls></audio> |  
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev4/eval_avg.best/wav/1089_134691_000049_000002.wav" controls></audio> |  
 
-<img src="../libritts_asrtts_offline/results/1089_134691_000049_000002.png">
+<img src="../libritts_asrtts_offline/results/1089_134691_000049_000002.png" width="320px">
 
 1089_134691_000049_000003.wav  
 
@@ -49,7 +49,7 @@ speech: speech of target speaker
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev2/eval_avg.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev4/eval_avg.best/wav/1089_134691_000049_000003.wav" controls></audio> |  
 
-<img src="../libritts_asrtts_offline/results/1089_134691_000049_000003.png">
+<img src="../libritts_asrtts_offline/results/1089_134691_000049_000003.png" width="320px">
 
 1089_134691_000050_000002.wav  
 
@@ -61,7 +61,7 @@ speech: speech of target speaker
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev2/eval_avg.best/wav/1089_134691_000050_000002.wav" controls></audio> |  
 | avg.best   (lr:1e0, 50 epoch)     | <audio src="../libritts_asrtts_offline/test_clean_1089_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk1089_lr1e0.rev4/eval_avg.best/wav/1089_134691_000050_000002.wav" controls></audio> |  
 
-<img src="../libritts_asrtts_offline/results/1089_134691_000050_000002.png">
+<img src="../libritts_asrtts_offline/results/1089_134691_000050_000002.png" width="320px">
 
 1089_134691_000051_000000.wav  
 
