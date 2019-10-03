@@ -24,8 +24,8 @@ speech: speech of target speaker
 
 ### 4446_2275_000044_000005.wav  
 
-    Ground truth:   
-    Recog output:   
+    Ground truth: I will do anything you say-but that! 
+    Recog output: I WILL DO ANYTHING YOU SAY BUT THAT. 
 
 | type | wav |  
 | --- | --- |  
@@ -36,8 +36,8 @@ speech: speech of target speaker
 
 ### 4446_2275_000044_000006.wav  
 
-    Ground truth:   
-    Recog output:   
+    Ground truth: I will ask the least imaginable, but I must have SOMETHING!" 
+    Recog output: I WILL ASK THE LEAST IMAGINABLE BUT I MUST HAVE SOMETHING. 
 
 | type | wav |  
 | --- | --- |  
@@ -48,8 +48,8 @@ speech: speech of target speaker
 
 ### 4446_2275_000045_000000.wav  
 
-    Ground truth:   
-    Recog output:   
+    Ground truth: Bartley turned away and sank down in his chair again. 
+    Recog output: BARTLEY TURNED AWAY AND SANK DOWN IN HIS CHAIR AGAIN. 
 
 | type | wav |  
 | --- | --- |  
@@ -60,8 +60,8 @@ speech: speech of target speaker
 
 ### 4446_2275_000045_000001.wav  
 
-    Ground truth:   
-    Recog output:   
+    Ground truth: Hilda sat on the arm of it and put her hands lightly on his shoulders. 
+    Recog output: HELD A SAT ON THE ARM OF IT AND PUT HER HANDS LIGHTLY ON HIS SHOULDERS. 
 
 | type | wav |  
 | --- | --- |  
@@ -72,8 +72,8 @@ speech: speech of target speaker
 
 ### 4446_2275_000046_000000.wav  
 
-    Ground truth:   
-    Recog output:   
+    Ground truth: "Just something Bartley. 
+    Recog output: JUST SOMETHING BARTLEY. 
 
 | type | wav |  
 | --- | --- |  
