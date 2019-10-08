@@ -54,25 +54,25 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="ins_taco2.v2/tacotron2.v2.GL/LJ050-0063.wav" controls></audio> |  
-| WNV_mol v2 | <audio src="ins_taco2.v2/tacotron2.v2.wnv_mol/LJ050-0063_gen.wav" controls></audio> |  
-| WNV_nsf v2 | <audio src="ins_taco2.v2/tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
-| GL v3      | <audio src="ins_taco2.v2/tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
+| GL v2      | <audio src="tacotron2.v2.GL/LJ050-0063.wav" controls></audio> |  
+| WNV_mol v2 | <audio src="tacotron2.v2.wnv_mol/LJ050-0063_gen.wav" controls></audio> |  
+| WNV_nsf v2 | <audio src="tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
+| GL v3      | <audio src="tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
 
 
 ## att_ws of end2end ASR
 
 ### GL v2
-<img src="ins_taco2.v2/tacotron2.v2.GL/LJ050-0063_att_ws_gl.png" width="640px">  
+<img src="tacotron2.v2.GL/LJ050-0063_att_ws_gl.png" width="640px">  
 
 ### WNV_mol v2
-<img src="ins_taco2.v2/tacotron2.v2.wnv_mol/LJ050-0063_att_ws_wnv_mol.png" width="640px">  
+<img src="tacotron2.v2.wnv_mol/LJ050-0063_att_ws_wnv_mol.png" width="640px">  
 
 ### WNV_nsf v2
-<img src="ins_taco2.v2/tacotron2.v2.wnv_nsf/LJ050-0063_att_ws_wnv_nsf.png" width="640px">  
+<img src="tacotron2.v2.wnv_nsf/LJ050-0063_att_ws_wnv_nsf.png" width="640px">  
 
 ### GL v3
-<img src="ins_taco2.v2/tacotron2.v3.GL/LJ050-0063_att_ws.png" width="640px">  
+<img src="tacotron2.v3.GL/LJ050-0063_att_ws.png" width="640px">  
 
 ## tacotron2.v3
 
