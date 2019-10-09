@@ -1,4 +1,4 @@
-# Ins error of taco2.v2
+# Del error of fastspeech
 
 <img src="../img/CER_eval_same_feature.png" >
 
@@ -96,8 +96,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0225.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0225.wav" controls></audio> |  
 
 
 ## Deletion of "With"
@@ -120,8 +120,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0265.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0265.wav" controls></audio> |  
 
 
 ### ASR output
@@ -142,8 +142,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0277.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0277.wav" controls></audio> |  
 
 
 ## Deletion of "In"
@@ -166,8 +166,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0038.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0038.wav" controls></audio> |  
 
 
 ## Deletion of "guide"
@@ -190,8 +190,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0079.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0079.wav" controls></audio> |  
 
 
 ### ASR output
@@ -212,8 +212,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0080.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0080.wav" controls></audio> |  
 
 
 ## Deletion of "Were"
@@ -236,8 +236,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0103.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0103.wav" controls></audio> |  
 
 
 ## Deletion of "This"
@@ -260,8 +260,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0115.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0115.wav" controls></audio> |  
 
 
 ## Deletion of "They"
@@ -284,8 +284,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0119.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0119.wav" controls></audio> |  
 
 
 ## Deletion of "that"
@@ -308,8 +308,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0179.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0179.wav" controls></audio> |  
 
 
 ### ASR output
@@ -330,8 +330,8 @@
 
 | type | wav |  
 | --- | --- |  
-| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0060.wav" controls></audio> |  
-| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0060.wav" controls></audio> |  
+| fastspeech v1 | <audio src="fastspeech.v1.gl/LJ050-0241.wav" controls></audio> |  
+| fastspeech v2 | <audio src="fastspeech.v2.gl/LJ050-0241.wav" controls></audio> |  
 
 
 ## Complex example
