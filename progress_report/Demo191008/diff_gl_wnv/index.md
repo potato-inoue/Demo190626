@@ -39,7 +39,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0030.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0030.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0030_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0030.wav" controls></audio> |  
 
@@ -70,7 +70,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0031.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0031.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0031_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0031.wav" controls></audio> |  
 
@@ -102,7 +102,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0034.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0034.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0034_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0034.wav" controls></audio> |  
 
@@ -134,7 +134,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0065.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0065.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0065_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0065.wav" controls></audio> |  
 
@@ -166,7 +166,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0069.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0069.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0069_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0069.wav" controls></audio> |  
 
@@ -198,7 +198,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0070.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0070.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0070_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0070.wav" controls></audio> |  
 
@@ -229,7 +229,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0075.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0075.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0075_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0075.wav" controls></audio> |  
 
@@ -261,7 +261,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0090.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0090.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0090_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0090.wav" controls></audio> |  
 
@@ -293,7 +293,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0092.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0092.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0092_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0092.wav" controls></audio> |  
 
@@ -325,7 +325,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0140.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0140.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0140_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0140.wav" controls></audio> |  
 
@@ -356,7 +356,7 @@
 
 | type | wav |  
 | --- | --- |  
-| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.GL/LJ050-0158.wav" controls></audio> |  
+| GL v2      | <audio src="../diff_fastspeech/fastspeech.v2.gl/LJ050-0158.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="fastspeech.v2.wnv_mol/LJ050-0158_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="fastspeech.v2.wnv_nsf/LJ050-0158.wav" controls></audio> |  
 

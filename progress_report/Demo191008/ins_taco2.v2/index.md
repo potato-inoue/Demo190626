@@ -57,7 +57,7 @@
 | GL v2      | <audio src="tacotron2.v2.GL/LJ050-0063.wav" controls></audio> |  
 | WNV_mol v2 | <audio src="tacotron2.v2.wnv_mol/LJ050-0063_gen.wav" controls></audio> |  
 | WNV_nsf v2 | <audio src="tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
-| GL v3      | <audio src="tacotron2.v2.wnv_nsf/LJ050-0063.wav" controls></audio> |  
+| GL v3      | <audio src="tacotron2.v3.GL/LJ050-0063.wav" controls></audio> |  
 
 
 ## att_ws of end2end ASR
