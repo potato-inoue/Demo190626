@@ -1,0 +1,107 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.
+|exp/tts/test_clean_asr_rm_max_8230_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk8230_lr1e0.rev1/outputs_libritts.transformer.v1_tts_decode.fine-tuning_0th_denorm.ob_eval/librispeech.transformer.ngpu4_asr.result.v2/test_clean_asr_rm_max_eval/hyp.trn|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            SPKR               |            # Snt                        # Wrd            |            Corr                           Sub                           Del                           Ins                          Err                         S.Err             |
+|-------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            5683               |              10                           880            |            79.3                           0.9                          19.8                           0.3                         21.0                          50.0             |
+|=============================================================================================================================================================================================================================================================================|
+|            Sum/Avg            |              10                           880            |            79.3                           0.9                          19.8                           0.3                         21.0                          50.0             |
+|=============================================================================================================================================================================================================================================================================|
+|             Mean              |            10.0                         880.0            |            79.3                           0.9                          19.8                           0.3                         21.0                          50.0             |
+|             S.D.              |             0.0                           0.0            |             0.0                           0.0                           0.0                           0.0                          0.0                           0.0             |
+|            Median             |            10.0                         880.0            |            79.3                           0.9                          19.8                           0.3                         21.0                          50.0             |
+`-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.
+|exp/tts/test_clean_asr_rm_max_8230_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk8230_lr1e0.rev1/outputs_libritts.transformer.v1_tts_decode.fine-tuning_0th_denorm.ob_eval/librispeech.transformer.ngpu4_asr.result.v2/test_clean_asr_rm_max_eval/hyp.trn|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            SPKR             |            # Snt                        # Wrd             |            Corr                           Sub                           Del                           Ins                           Err                         S.Err             |
+|-----------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            5683             |              10                           880             |             698                             8                           174                             3                           185                             5             |
+|=============================================================================================================================================================================================================================================================================|
+|            Sum              |              10                           880             |             698                             8                           174                             3                           185                             5             |
+|=============================================================================================================================================================================================================================================================================|
+|            Mean             |            10.0                         880.0             |           698.0                           8.0                         174.0                           3.0                         185.0                           5.0             |
+|            S.D.             |             0.0                           0.0             |             0.0                           0.0                           0.0                           0.0                           0.0                           0.0             |
+|           Median            |            10.0                         880.0             |           698.0                           8.0                         174.0                           3.0                         185.0                           5.0             |
+`-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   exp/tts/test_clean_asr_rm_max_8230_train_no_dev_pytorch_tts_train_pytorch_transformer.fine-tuning.spk8230_lr1e0.rev1/outputs_libritts.transformer.v1_tts_decode.fine-tuning_0th_denorm.ob_eval/librispeech.transformer.ngpu4_asr.result.v2/test_clean_asr_rm_max_eval/hyp.trn
+
+Speakers: 
+    0:  5683
+
+Speaker sentences   0:  5683   #utts: 10
+id: (5683_32879_000046_000002)
+Scores: (#C #S #D #I) 36 0 32 0
+REF:  t h a n k y o u f r o m m y h e a r t f o r y o u r l O V E Y o U W I L L N E v E R K N O W P e R H a P S H O W M U C H I T I s t o m e 
+HYP:  t h a n k y o u f r o m m y h e a r t f o r y o u r l * * * * o * * * * * * * v * * * * * * * e * * a * * * * * * * * * * * * s t o m e 
+Eval:                                                       D D D D   D D D D D D D   D D D D D D D   D D   D D D D D D D D D D D D           
+
+id: (5683_32879_000047_000000)
+Scores: (#C #S #D #I) 120 0 0 0
+REF:  t h e y o u n g q u e e n l o o k e d o n h e r k i n d l y b u t s a d l y t h r o u g h h e r l a r g e s t r a n g e e y e s c l o u d e d w i t h a p r e s a g e o f f u t u r i t y a n d s h e k i s s e d h e r a g a i n a n d s a i d 
+HYP:  t h e y o u n g q u e e n l o o k e d o n h e r k i n d l y b u t s a d l y t h r o u g h h e r l a r g e s t r a n g e e y e s c l o u d e d w i t h a p r e s a g e o f f u t u r i t y a n d s h e k i s s e d h e r a g a i n a n d s a i d 
+Eval:                                                                                                                                                                                                                                                 
+
+id: (5683_32879_000048_000000)
+Scores: (#C #S #D #I) 85 5 29 2
+REF:  r a c h e l d e a r i h a v e a p l a n f o r y o u a n d m e w e s h a l l b e o l d m a i d s y o u A N D I a n d L i V E T O G E t h E R L I K E t h e l a d i e s o f L l a n g * o R r E n * c a r e l e s s A N D h A P P Y R E C L U S E s 
+HYP:  r a c h e l d e a r i h a v e a p l a n f o r y o u a n d m e w e s h a l l b e o l d m a i d s y o u * * * * a n d * i * * * * * * t h * * * * A T t h e l a d i e s o f * l a n g U o * r A n D c a r e l e s s * * T h * * * * * * * * * * I s 
+Eval:                                                                                                       D D D D       D   D D D D D D     D D D D S S                       D         I   D   S   I                 D D S   D D D D D D D D D D S   
+
+id: (5683_32879_000048_000001)
+Scores: (#C #S #D #I) 25 0 0 0
+REF:  i ' l l l e t b r a n d o n a n d a b d i c a t e 
+HYP:  i ' l l l e t b r a n d o n a n d a b d i c a t e 
+Eval:                                                   
+
+id: (5683_32879_000048_000002)
+Scores: (#C #S #D #I) 137 0 68 0
+REF:  w e w i l l m a k e a l i t t l e t o u r t o g e t h e r w h e n a l l t h e s h e l l h a v e b l o w n o v e r i n a f e w w e e k s a n d c h o o s e o u r r e t r e a t a n d w i t h t h e w i n t e r s n o w w i l l v a n i s h f r o m b r a n d o N A n D A P P E A R W I T H T H E E A R L Y F L O W E R s A T O U R C o T T A G E A m O N G T H E B e A U T I F U L W O O D S A N D H I L L S O F w a l e s 
+HYP:  w e w i l l m a k e a l i t t l e t o u r t o g e t h e r w h e n a l l t h e s h e l l h a v e b l o w n o v e r i n a f e w w e e k s a n d c h o o s e o u r r e t r e a t a n d w i t h t h e w i n t e r s n o w w i l l v a n i s h f r o m b r a n d o * * n * * * * * * * * * * * * * * * * * * * * * * * * * s * * * * * * o * * * * * * m * * * * * * * e * * * * * * * * * * * * * * * * * * * * * * w a l e s 
+Eval:                                                                                                                                                                                                                                                               D D   D D D D D D D D D D D D D D D D D D D D D D D D D   D D D D D D   D D D D D D   D D D D D D D   D D D D D D D D D D D D D D D D D D D D D D           
+
+id: (5683_32879_000048_000003)
+Scores: (#C #S #D #I) 17 0 0 0
+REF:  w i l l y o u c o m e r a c h e l 
+HYP:  w i l l y o u c o m e r a c h e l 
+Eval:                                   
+
+id: (5683_32879_000049_000000)
+Scores: (#C #S #D #I) 42 0 9 0
+REF:  a t s i g h t o f t h i s c a s t l E O R C O T T A G e i n t h e a i r r a c h e l l i g h t e d u p 
+HYP:  a t s i g h t o f t h i s c a s t l * * * * * * * * * e i n t h e a i r r a c h e l l i g h t e d u p 
+Eval:                                     D D D D D D D D D                                                 
+
+id: (5683_32879_000049_000002)
+Scores: (#C #S #D #I) 203 3 36 1
+REF:  i t w a s e s c a p e f l i g h t f r o m g y l i n g d e n f l i g h t f r o m b r a n d o n f l i g h t f r o m r e d m a n ' s f a r m t h e y a n d a l l t h e i r h a t e d a s s o c i a t i o n s w o u l d b e f a r b e h i n d a n d t h a t a w f u l p a g e i n h e r s t o r y n o t t o r n o u t i n d e e d b u t G U m * d o w n a s i t w e r e A n D n o l o n g e r g l a r i n g a n d g l o w E R I N G I N H E R E Y E S E V E R Y M O M E N T O F H e r W A K i n g L I F E 
+HYP:  i t w a s e s c a p e f l i g h t f r o m g y l i n g d e n f l i g h t f r o m b r a n d o n f l i g h t f r o m r e d m a n ' s f a r m t h e y a n d a l l t h e i r h a t e d a s s o c i a t i o n s w o u l d b e f a r b e h i n d a n d t h a t a w f u l p a g e i n h e r s t o r y n o t t o r n o u t i n d e e d b u t C O m E d o w n a s i t w e r e I n * n o l o n g e r g l a r i n g a n d g l o w * * * * * * * * * * * * * * * * * * * * * * * * * * * * e r * * * i n g * * * * 
+Eval:                                                                                                                                                                                                                                                                                                                                     S S   I                         S   D                                             D D D D D D D D D D D D D D D D D D D D D D D D D D D D     D D D       D D D D 
+
+id: (5683_32879_000050_000001)
+Scores: (#C #S #D #I) 10 0 0 0
+REF:  i t w a s a h o p e 
+HYP:  i t w a s a h o p e 
+Eval:                     
+
+id: (5683_32879_000050_000002)
+Scores: (#C #S #D #I) 23 0 0 0
+REF:  s h e s e i z e d i t s h e c l u n g t o i t 
+HYP:  s h e s e i z e d i t s h e c l u n g t o i t 
+Eval:                                               
+
+
