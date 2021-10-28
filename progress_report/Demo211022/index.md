@@ -1,6 +1,6 @@
 # Demo 
 
-## 0011 
+## 0011 (Male) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -11,7 +11,7 @@
 | 0011_Surprise | <audio src="./0011/0011_001681.wav" controls></audio> |  
 | 0011_Angry | <audio src="./0011/0011_000631.wav" controls></audio> |  
 
-## 0012 
+## 0012 (Male) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -22,7 +22,7 @@
 | 0012_Surprise | <audio src="./0012/0012_001681.wav" controls></audio> |  
 | 0012_Angry | <audio src="./0012/0012_000631.wav" controls></audio> |  
 
-## 0013 
+## 0013 (Male) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -33,7 +33,7 @@
 | 0013_Surprise | <audio src="./0013/0013_001681.wav" controls></audio> |  
 | 0013_Angry | <audio src="./0013/0013_000631.wav" controls></audio> |  
 
-## 0014 
+## 0014 (Male) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -44,7 +44,7 @@
 | 0014_Surprise | <audio src="./0014/0014_001681.wav" controls></audio> |  
 | 0014_Angry | <audio src="./0014/0014_000631.wav" controls></audio> |  
 
-## 0015 
+## 0015 (Female) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -55,7 +55,7 @@
 | 0015_Surprise | <audio src="./0015/0015_001681.wav" controls></audio> |  
 | 0015_Angry | <audio src="./0015/0015_000631.wav" controls></audio> |  
 
-## 0016 
+## 0016 (Female) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -66,7 +66,7 @@
 | 0016_Surprise | <audio src="./0016/0016_001681.wav" controls></audio> |  
 | 0016_Angry | <audio src="./0016/0016_000631.wav" controls></audio> |  
 
-## 0017 
+## 0017 (Female) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -77,7 +77,7 @@
 | 0017_Surprise | <audio src="./0017/0017_001681.wav" controls></audio> |  
 | 0017_Angry | <audio src="./0017/0017_000631.wav" controls></audio> |  
 
-## 0018 
+## 0018 (Female) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -88,7 +88,7 @@
 | 0018_Surprise | <audio src="./0018/0018_001681.wav" controls></audio> |  
 | 0018_Angry | <audio src="./0018/0018_000631.wav" controls></audio> |  
 
-## 0019 
+## 0019 (Female) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
@@ -99,7 +99,7 @@
 | 0019_Surprise | <audio src="./0019/0019_001681.wav" controls></audio> |  
 | 0019_Angry | <audio src="./0019/0019_000631.wav" controls></audio> |  
 
-## 0020 
+## 0020 (Male) 
  HE COULD NOT HELP DOING SO.
 
 | emo | wav |  
